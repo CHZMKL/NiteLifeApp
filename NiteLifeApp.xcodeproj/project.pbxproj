@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36C607ED29635BA300C9D4FE /* NiteLifeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C607EC29635BA300C9D4FE /* NiteLifeAppApp.swift */; };
+		36C607EF29635BA300C9D4FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C607EE29635BA300C9D4FE /* ContentView.swift */; };
+		36C607F129635BA400C9D4FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36C607F029635BA400C9D4FE /* Assets.xcassets */; };
+		36C607F429635BA400C9D4FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36C607F329635BA400C9D4FE /* Preview Assets.xcassets */; };
+		36C607FE29635BA400C9D4FE /* NiteLifeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C607FD29635BA400C9D4FE /* NiteLifeAppTests.swift */; };
+		36C6080829635BA400C9D4FE /* NiteLifeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6080729635BA400C9D4FE /* NiteLifeAppUITests.swift */; };
+		36C6080A29635BA400C9D4FE /* NiteLifeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6080929635BA400C9D4FE /* NiteLifeAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36C607FA29635BA400C9D4FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36C607E129635BA300C9D4FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36C607E829635BA300C9D4FE;
+			remoteInfo = NiteLifeApp;
+		};
+		36C6080429635BA400C9D4FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36C607E129635BA300C9D4FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36C607E829635BA300C9D4FE;
+			remoteInfo = NiteLifeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36C607E929635BA300C9D4FE /* NiteLifeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiteLifeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C607EC29635BA300C9D4FE /* NiteLifeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiteLifeAppApp.swift; sourceTree = "<group>"; };
+		36C607EE29635BA300C9D4FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		36C607F029635BA400C9D4FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36C607F329635BA400C9D4FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		36C607F929635BA400C9D4FE /* NiteLifeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiteLifeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C607FD29635BA400C9D4FE /* NiteLifeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiteLifeAppTests.swift; sourceTree = "<group>"; };
+		36C6080329635BA400C9D4FE /* NiteLifeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiteLifeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C6080729635BA400C9D4FE /* NiteLifeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiteLifeAppUITests.swift; sourceTree = "<group>"; };
+		36C6080929635BA400C9D4FE /* NiteLifeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiteLifeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36C607E629635BA300C9D4FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C607F629635BA400C9D4FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C6080029635BA400C9D4FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36C607E029635BA300C9D4FE = {
+			isa = PBXGroup;
+			children = (
+				36C607EB29635BA300C9D4FE /* NiteLifeApp */,
+				36C607FC29635BA400C9D4FE /* NiteLifeAppTests */,
+				36C6080629635BA400C9D4FE /* NiteLifeAppUITests */,
+				36C607EA29635BA300C9D4FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36C607EA29635BA300C9D4FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36C607E929635BA300C9D4FE /* NiteLifeApp.app */,
+				36C607F929635BA400C9D4FE /* NiteLifeAppTests.xctest */,
+				36C6080329635BA400C9D4FE /* NiteLifeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36C607EB29635BA300C9D4FE /* NiteLifeApp */ = {
+			isa = PBXGroup;
+			children = (
+				36C607EC29635BA300C9D4FE /* NiteLifeAppApp.swift */,
+				36C607EE29635BA300C9D4FE /* ContentView.swift */,
+				36C607F029635BA400C9D4FE /* Assets.xcassets */,
+				36C607F229635BA400C9D4FE /* Preview Content */,
+			);
+			path = NiteLifeApp;
+			sourceTree = "<group>";
+		};
+		36C607F229635BA400C9D4FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				36C607F329635BA400C9D4FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		36C607FC29635BA400C9D4FE /* NiteLifeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				36C607FD29635BA400C9D4FE /* NiteLifeAppTests.swift */,
+			);
+			path = NiteLifeAppTests;
+			sourceTree = "<group>";
+		};
+		36C6080629635BA400C9D4FE /* NiteLifeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36C6080729635BA400C9D4FE /* NiteLifeAppUITests.swift */,
+				36C6080929635BA400C9D4FE /* NiteLifeAppUITestsLaunchTests.swift */,
+			);
+			path = NiteLifeAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36C607E829635BA300C9D4FE /* NiteLifeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C6080D29635BA400C9D4FE /* Build configuration list for PBXNativeTarget "NiteLifeApp" */;
+			buildPhases = (
+				36C607E529635BA300C9D4FE /* Sources */,
+				36C607E629635BA300C9D4FE /* Frameworks */,
+				36C607E729635BA300C9D4FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NiteLifeApp;
+			productName = NiteLifeApp;
+			productReference = 36C607E929635BA300C9D4FE /* NiteLifeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36C607F829635BA400C9D4FE /* NiteLifeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C6081029635BA400C9D4FE /* Build configuration list for PBXNativeTarget "NiteLifeAppTests" */;
+			buildPhases = (
+				36C607F529635BA400C9D4FE /* Sources */,
+				36C607F629635BA400C9D4FE /* Frameworks */,
+				36C607F729635BA400C9D4FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36C607FB29635BA400C9D4FE /* PBXTargetDependency */,
+			);
+			name = NiteLifeAppTests;
+			productName = NiteLifeAppTests;
+			productReference = 36C607F929635BA400C9D4FE /* NiteLifeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36C6080229635BA400C9D4FE /* NiteLifeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C6081329635BA400C9D4FE /* Build configuration list for PBXNativeTarget "NiteLifeAppUITests" */;
+			buildPhases = (
+				36C607FF29635BA400C9D4FE /* Sources */,
+				36C6080029635BA400C9D4FE /* Frameworks */,
+				36C6080129635BA400C9D4FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36C6080529635BA400C9D4FE /* PBXTargetDependency */,
+			);
+			name = NiteLifeAppUITests;
+			productName = NiteLifeAppUITests;
+			productReference = 36C6080329635BA400C9D4FE /* NiteLifeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36C607E129635BA300C9D4FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					36C607E829635BA300C9D4FE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					36C607F829635BA400C9D4FE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 36C607E829635BA300C9D4FE;
+					};
+					36C6080229635BA400C9D4FE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 36C607E829635BA300C9D4FE;
+					};
+				};
+			};
+			buildConfigurationList = 36C607E429635BA300C9D4FE /* Build configuration list for PBXProject "NiteLifeApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36C607E029635BA300C9D4FE;
+			productRefGroup = 36C607EA29635BA300C9D4FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36C607E829635BA300C9D4FE /* NiteLifeApp */,
+				36C607F829635BA400C9D4FE /* NiteLifeAppTests */,
+				36C6080229635BA400C9D4FE /* NiteLifeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36C607E729635BA300C9D4FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C607F429635BA400C9D4FE /* Preview Assets.xcassets in Resources */,
+				36C607F129635BA400C9D4FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C607F729635BA400C9D4FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C6080129635BA400C9D4FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36C607E529635BA300C9D4FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C607EF29635BA300C9D4FE /* ContentView.swift in Sources */,
+				36C607ED29635BA300C9D4FE /* NiteLifeAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C607F529635BA400C9D4FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C607FE29635BA400C9D4FE /* NiteLifeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C607FF29635BA400C9D4FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C6080A29635BA400C9D4FE /* NiteLifeAppUITestsLaunchTests.swift in Sources */,
+				36C6080829635BA400C9D4FE /* NiteLifeAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36C607FB29635BA400C9D4FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36C607E829635BA300C9D4FE /* NiteLifeApp */;
+			targetProxy = 36C607FA29635BA400C9D4FE /* PBXContainerItemProxy */;
+		};
+		36C6080529635BA400C9D4FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36C607E829635BA300C9D4FE /* NiteLifeApp */;
+			targetProxy = 36C6080429635BA400C9D4FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		36C6080B29635BA400C9D4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36C6080C29635BA400C9D4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36C6080E29635BA400C9D4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NiteLifeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = JXYT7XPXJF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = samorigroup.NiteLifeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36C6080F29635BA400C9D4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NiteLifeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = JXYT7XPXJF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = samorigroup.NiteLifeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		36C6081129635BA400C9D4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JXYT7XPXJF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = samorigroup.NiteLifeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NiteLifeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NiteLifeApp";
+			};
+			name = Debug;
+		};
+		36C6081229635BA400C9D4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JXYT7XPXJF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = samorigroup.NiteLifeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NiteLifeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NiteLifeApp";
+			};
+			name = Release;
+		};
+		36C6081429635BA400C9D4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JXYT7XPXJF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = samorigroup.NiteLifeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NiteLifeApp;
+			};
+			name = Debug;
+		};
+		36C6081529635BA400C9D4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JXYT7XPXJF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = samorigroup.NiteLifeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NiteLifeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36C607E429635BA300C9D4FE /* Build configuration list for PBXProject "NiteLifeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C6080B29635BA400C9D4FE /* Debug */,
+				36C6080C29635BA400C9D4FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36C6080D29635BA400C9D4FE /* Build configuration list for PBXNativeTarget "NiteLifeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C6080E29635BA400C9D4FE /* Debug */,
+				36C6080F29635BA400C9D4FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36C6081029635BA400C9D4FE /* Build configuration list for PBXNativeTarget "NiteLifeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C6081129635BA400C9D4FE /* Debug */,
+				36C6081229635BA400C9D4FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36C6081329635BA400C9D4FE /* Build configuration list for PBXNativeTarget "NiteLifeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C6081429635BA400C9D4FE /* Debug */,
+				36C6081529635BA400C9D4FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36C607E129635BA300C9D4FE /* Project object */;
+}
